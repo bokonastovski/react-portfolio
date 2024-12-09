@@ -1,7 +1,14 @@
-import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaBootstrap,
+  FaSass,
+} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { motion, Variants } from "framer-motion";
 
 const iconVariants = (duration: number): Variants => ({
@@ -83,6 +90,30 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <TbBrandNextjs className="text-7xl text-black-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaBootstrap className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaSass className="text-7xl text-red-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiTailwindCssFill className="text-7xl text-cyan-400" />
         </motion.div>
       </motion.div>
     </div>

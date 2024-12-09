@@ -29,7 +29,17 @@ export const EDUCATION = [
 export const PROJECTS = [
   {
     title: "VibeOn Edu - Sparkasse Bank",
-    image: "/images/sparkasse.png",
+    image: [
+      "/images/Image1SB.png",
+      "/images/Image2SB.png",
+      "/images/Image3SB.png",
+      "/images/Image4SB.png",
+      "/images/Image5SB.png",
+      "/images/Image6SB.png",
+      "/images/Image7SB.png",
+      "/images/Image8SB.png",
+      "/images/Image9SB.png",
+    ],
     description:
       "I played a key role in developing VibeOn Edu, the first financial education platform for young people in the country. I implemented the backend for user authentication, enabling secure login, registration, and sign-out functionalities. Additionally, I created a savings calculator to help users manage their finances and developed engaging quizzes that reward users with points and certificates. I also contributed to the homepage design and collaborated with my team to ensure smooth functionality throughout the platform during our hackathon.",
     technologies: ["HTML", "SASS", "TypeScript", "React.js", "NextJS"],
@@ -37,7 +47,14 @@ export const PROJECTS = [
   },
   {
     title: "Web application for MHRA",
-    image: "/images/mhra.png",
+    image: [
+      "/images/Image1MHRA.png",
+      "/images/Image2MHRA.png",
+      "/images/Image3MHRA.png",
+      "/images/Image4MHRA.png",
+      "/images/Image5MHRA.png",
+      "/images/Image6MHRA.png",
+    ],
     description:
       "I contributed to the Macedonian Human Resources Association (MHRA) web application, which offers users essential information about the association's activities, events, and resources. Key features include event management with calendar integration, an HR practices blog, and a member dashboard for tracking badges and managing profiles, all designed to create an engaging and informative user experience.",
     technologies: ["HTML", "CSS", "TypeScript", "NextJS"],
@@ -45,7 +62,12 @@ export const PROJECTS = [
   },
   {
     title: "Webpage for Larger.world",
-    image: "/images/larger-world.png",
+    image: [
+      "/images/Image1LW.png",
+      "/images/Image2LW.png",
+      "/images/Image3LW.png",
+      "/images/Image4LW.png",
+    ],
     description:
       "I teamed up with front-end developers during a hackathon to build Larger.World, a website focused on unlearning for a sustainable and inclusive future. I developed the database and implemented key features for the podcast, article, and video pages. Our project won the hackathon, successfully providing a platform that inspires users to rethink traditional practices and engage with the community through meaningful content.",
     technologies: ["HTML", "SASS", "TypeScript", "React.js"],
@@ -53,7 +75,14 @@ export const PROJECTS = [
   },
   {
     title: "Platform for SAVA Insurance",
-    image: "/images/sava.png",
+    image: [
+      "/images/Image1SO.png",
+      "/images/Image2SO.png",
+      "/images/Image3SO.png",
+      "/images/Image4SO.png",
+      "/images/Image5SO.png",
+      "/images/Image6SO.png",
+    ],
     description:
       "I created the Sava Insurance app during a hackathon to tackle challenges in policy management, invoicing, insurance claims, and damage reporting. Designed in collaboration with a colleague, the user-friendly platform includes features like user authentication, policy tracking, damage reporting, and notifications for important events, providing users with a seamless insurance management experience.",
     technologies: ["HTML", "CSS", "TypeScript", "React.js"],
@@ -61,7 +90,14 @@ export const PROJECTS = [
   },
   {
     title: "Webpage for SafeBlink",
-    image: "/images/safeblink.png",
+    image: [
+      "/images/Image1SBL.png",
+      "/images/Image2SBL.png",
+      "/images/Image3SBL.png",
+      "/images/Image4SBL.png",
+      "/images/Image5SBL.png",
+      "/images/Image6SBL.png",
+    ],
     description:
       "I developed Safe Blink, a web application that promotes safe browsing practices through discussions, educational videos, and a badge system. The platform includes user authentication, allowing registered users to participate in discussions, comment on videos, and track their badge progress, creating an interactive environment for fostering safer online habits.",
     technologies: ["HTML", "CSS", "JavaScript"],
